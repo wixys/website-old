@@ -1,0 +1,9 @@
+<template>
+  <div>
+    <img
+      src="https://www.wixys.com/img/logo.png"
+      alt="https://www.wixys.com/img/logo.png"
+      width="180"
+    />
+  </div>
+</template>
