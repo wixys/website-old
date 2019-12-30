@@ -19,7 +19,10 @@
         "support": "Support",
         "privacy_policy": "Privacy policy",
         "help": "Help",
-        "company": "Company"
+        "company": "Company",
+        "languages": "Languages",
+        "search": "Search",
+        "user": "User"
     },
     "messages": {
         "page_not_found": "Page not found",

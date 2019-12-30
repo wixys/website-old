@@ -24,8 +24,10 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
-  
+  css: [
+    '~/assets/css/custom.css',
+  ],
+
   router: {              // customize nuxt.js router (vue-router).
     middleware: 'i18n'   // middleware all pages of the application
   },
@@ -48,9 +50,27 @@ export default {
    */
   modules: [
     // Doc: https://bootstrap-vue.js.org/docs/
-    "bootstrap-vue/nuxt"
+    'bootstrap-vue/nuxt',
+    '@nuxtjs/device',
+    '@neneos/nuxt-animate.css',
+    '@nuxtjs/moment',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-XXXXXX'
+    }],
+    ['nuxt-validate', {
+      lang: 'es',
+      nuxti18n: {
+        locale: {
+          'es-ES': 'es_ES'
+        }
+      }
+    }]
   ],
-
+  webfontloader: {
+    google: {
+      families: ['Open+Sans:400,700']
+    }
+  },
   /*
    ** Build configuration
    */

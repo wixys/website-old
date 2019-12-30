@@ -10,14 +10,12 @@
             class="col-lg-4 col-md-4 mb-3"
           >
             <b-card
-              footer="Card Footer"
-              footer-tag="footer"
               :title="item.title"
               class="h-100"
             >
               <b-card-text v-html="item.description"></b-card-text>
-              <b-button href="#" variant="primary">
-                <nuxt-link :to="'/' + $i18n.locale + '/' + item.slug" class="btn btn-brand">
+              <b-button href="#" variant="outline-secondary">
+                <nuxt-link :to="'/' + $i18n.locale + '/' + item.slug">
 								  {{ $t('links.see_more') }} <i class="fas fa-angle-right"></i>
 							  </nuxt-link>
               </b-button>
@@ -31,6 +29,11 @@
 
 <script>
 export default {
+  data() {
+    return {
+      footer: 'My footer'
+    }
+  },
   props: {
     items: Array
   }

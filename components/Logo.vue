@@ -1,8 +1,8 @@
 <template>
   <div>
     <img
-      src="https://www.wixys.com/img/logo.png"
-      alt="https://www.wixys.com/img/logo.png"
+      src="~/static/img/logo.svg"
+      alt="~/static/img/logo.svg"
       width="180"
     />
   </div>
