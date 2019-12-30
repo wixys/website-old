@@ -25,11 +25,16 @@ export default {
    ** Global CSS
    */
   css: [],
-
+  
+  router: {              // customize nuxt.js router (vue-router).
+    middleware: 'i18n'   // middleware all pages of the application
+  },
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [
+    '~/plugins/i18n.js',
+  ],
 
   env: {
     apiUrl: "https://backend.gowix.net/api/",
@@ -53,6 +58,11 @@ export default {
     /*
      ** You can extend webpack config here
      */
+    vendor: [
+      'vue-i18n', // webpack vue-i18n.bundle.js
+
+    ], 
+
     extend(config, ctx) {}
   }
 };
