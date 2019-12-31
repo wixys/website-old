@@ -39,10 +39,15 @@ export default {
   ],
 
   env: {
+    //-- API
     apiUrl: "https://backend.gowix.net/api/",
     apiVersion: "v1",
     platform: "atasun",
-    gowixApiKey: "b8f43bb54471b5a319bd697d5b457c0836173e8r"
+    gowixApiKey: "b8f43bb54471b5a319bd697d5b457c0836173e8r",
+    //-- UI Settings
+    search: true,
+    multilang: true,
+    profile: true
   },
 
   /*
