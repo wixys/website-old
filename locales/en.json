@@ -17,6 +17,7 @@
         "gallery": "Gallery",
         "contact": "Contact",
         "support": "Support",
+        "terms_of_use": "Terms of Use",
         "privacy_policy": "Privacy policy",
         "help": "Help",
         "company": "Company",
@@ -36,7 +37,8 @@
         "phone": "Phone",
         "email": "Email",
         "cookies_policy": "Cookies policy",
-        "cookies_policy_message": "By browsing this website, you accept the use of cookies, as they help us optimize your experience."
+        "cookies_policy_message": "By browsing this website, you accept the use of cookies, as they help us optimize your experience.",
+        "all_rights_reserved": "All Rights Reserved"
     },
     "pages": {
         "cookies_policy": "cookies-policy"

@@ -36,18 +36,33 @@ export default {
    */
   plugins: [
     '~/plugins/i18n.js',
+    '~/plugins/fontawesome.js',
   ],
 
   env: {
+    //-- Company info
+    brand: {
+      company: 'Logo Website skeleton',
+      title: 'Logo Website skeleton',
+      description: 'Website skeleton to build landing pages, corporative websites, e-commerce, or any platform, etc.'
+    },
+    //-- Social Media
+    socialMedia: {
+      facebookUrl: 'https://www.facebook.com/WixysGlobalSolutions/', 
+      twitterUrl: 'https://twitter.com/wixys', 
+      instagramUrl: '', 
+      linkedinUrl: 'https://www.linkedin.com/company/10852094/',
+      youtubeUrl: ''
+    },
     //-- API
     apiUrl: "https://backend.gowix.net/api/",
     apiVersion: "v1",
     platform: "atasun",
     gowixApiKey: "b8f43bb54471b5a319bd697d5b457c0836173e8r",
     //-- UI Settings
-    search: true,
-    multilang: true,
-    profile: true
+    search: false,
+    multilang: false,
+    profile: false
   },
 
   /*
