@@ -1,7 +1,6 @@
 <template>
 	<div>
 		<div v-if="category.title != $t('menu_items.home')">
-			<!--<div class="container animated fadeIn">-->	
 			<div class="container">	
 				<h1 class="mb-3">{{ category.title }}
 					<small v-html="category.subtitle"></small>

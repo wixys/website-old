@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="light" variant="light" class="shadow" fixed="top">
+    <b-navbar toggleable="lg" type="light" variant="light" class="shadow">
       <b-navbar-brand href="#">
         <Logo />
       </b-navbar-brand>
@@ -18,20 +18,20 @@
 
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <div v-if="search">
+          <div v-show="search">
             <b-nav-form>
               <b-form-input size="sm" class="mr-sm-2" :placeholder="$t('menu_items.search')"></b-form-input>
               <b-button size="sm" class="my-2 my-sm-0" type="submit">{{ $t('menu_items.search') }}</b-button>
             </b-nav-form>
           </div>
 
-          <div v-if="multilang">
+          <div v-show="multilang">
             <b-nav-item-dropdown :text="$t('menu_items.languages')" right>
               <b-dropdown-item href="#">EN</b-dropdown-item>
               <b-dropdown-item href="#">ES</b-dropdown-item>
             </b-nav-item-dropdown>
           </div>
-          <div v-if="profile">
+          <div v-show="profile">
             <b-nav-item-dropdown right>
               <!-- Using 'button-content' slot -->
               <template v-slot:button-content>

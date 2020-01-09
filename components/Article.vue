@@ -2,8 +2,8 @@
 	<div>
         <div class="container-fluid">
             <div class="row mb-4">
-                <div class="col-md-4 mb-4" v-lazy-container="{ selector: 'img' }">
-                    <img v-if="article.media" :data-src="article.media.cover" class="card-img-top" :alt="article.title">
+                <div class="col-md-4 mb-4">
+                    <img v-if="article.media" :src="article.media.cover" class="card-img-top" :alt="article.title">
                 </div>
                 <div class="col-md-8">                    
                     <h3 class="card-title">{{ article.title }}</h3>

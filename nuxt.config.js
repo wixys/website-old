@@ -46,6 +46,17 @@ export default {
       title: 'Logo Website skeleton',
       description: 'Website skeleton to build landing pages, corporative websites, e-commerce, or any platform, etc.'
     },
+    contactInfo: {
+      phone: '616312008',
+      mobile: '',
+      whatsapp: '616312008',
+      emailAddress: '',
+      address: ''
+    },
+    marketing: {
+      btnMainCallToAction: true,
+      titleMainCallToAction: 'Cita online'
+    },
     //-- Social Media
     socialMedia: {
       facebookUrl: 'https://www.facebook.com/WixysGlobalSolutions/', 
@@ -60,9 +71,10 @@ export default {
     platform: "atasun",
     gowixApiKey: "b8f43bb54471b5a319bd697d5b457c0836173e8r",
     //-- UI Settings
-    search: false,
-    multilang: false,
-    profile: false
+    search: true,
+    multilang: true,
+    profile: true,
+    topNavBar: true
   },
 
   /*
