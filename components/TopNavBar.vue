@@ -12,6 +12,11 @@
                         <font-awesome-icon :icon="['fas', 'phone']" class="text-white" /> <span class="text-white">{{ showPhoneNumber }}</span>
                     </a>
                 </div>
+                <div v-if="showMobileNumber">
+                    <a :href="'tel:'+showMobileNumber" class="btn btn-brand float-right text-black" title="Llamar">
+                        <font-awesome-icon :icon="['fas', 'mobile-alt']" class="text-white" /> <span class="text-white">{{ showMobileNumber }}</span>
+                    </a>
+                </div>
                 <div v-show="showBtnMainCallToAction">
                     <nuxt-link :to="'/' + $i18n.locale + '/presupuesto-online'" class="btn btn-brand float-right text-black mr-2" title="Enviar un correo">
                         <font-awesome-icon :icon="['far', 'file-alt']" class="text-white" /> <span class="text-white">{{ titleMainCallToAction }}</span>
@@ -41,6 +46,10 @@
             showPhoneNumber () {
                 this.phoneNumber = process.env.contactInfo.phone
                 return this.phoneNumber
+            },
+            showMobileNumber () {
+                this.mobileNumber = process.env.contactInfo.mobile
+                return this.mobileNumber
             },
             showWhatsappNumber () {
                 this.whatsapp = process.env.contactInfo.whatsapp

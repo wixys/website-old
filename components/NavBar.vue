@@ -14,6 +14,11 @@
               {{ $t('menu_items.home') }}
             </nuxt-link>
           </b-nav-item>
+          <b-nav-item>
+            <nuxt-link :to="'/' + $i18n.locale + '/' + $t('pages.about')">
+              {{ $t('menu_items.about') }}
+            </nuxt-link>
+          </b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->

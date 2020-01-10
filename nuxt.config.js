@@ -47,11 +47,14 @@ export default {
       description: 'Website skeleton to build landing pages, corporative websites, e-commerce, or any platform, etc.'
     },
     contactInfo: {
-      phone: '616312008',
-      mobile: '',
+      phone: '912667534',
+      mobile: '616312008',
       whatsapp: '616312008',
-      emailAddress: '',
-      address: ''
+      emailAddress: 'info@wixys.com',
+      address: 'Calle Martín López Zubero 1, 4C',
+      city: 'Brunete',
+      state: 'Madrid',
+      zipcode: '28690'
     },
     marketing: {
       btnMainCallToAction: true,

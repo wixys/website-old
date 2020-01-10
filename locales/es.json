@@ -23,7 +23,8 @@
         "company": "Empresa",
         "languages": "Idiomas",
         "search": "Buscar",
-        "user": "Usuario"
+        "user": "Usuario",
+        "blog": "Blog"
     },
     "messages": {
         "page_not_found": "Página no encontrada",
@@ -41,6 +42,24 @@
         "all_rights_reserved": "Todos los derechos reservados"
     },
     "pages": {
-        "cookies_policy": "politica-de-cookies"
+        "cookies_policy": "politica-de-cookies",
+        "about": "nosotros",
+        "company": "empresa",
+        "services": "servicios",
+        "products": "productos",
+        "promotions": "promociones",
+        "treatments": "tratamientos",
+        "team": "equipo",
+        "portfolio": "portafolio",
+        "gallery": "galeria",
+        "contact": "contactar",
+        "support": "soporte",
+        "privacy_policy": "politica-de-privacidad",
+        "terms_of_use": "terminos-de-uso",
+        "help": "ayuda",
+        "blog": "blog"
+    },
+    "titles": {
+        "location": "Localización"
     }
 }
