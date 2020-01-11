@@ -23,7 +23,8 @@
         "company": "Company",
         "languages": "Languages",
         "search": "Search",
-        "user": "User"
+        "user": "User",
+        "blog": "Blog"
     },
     "messages": {
         "page_not_found": "Page not found",
@@ -41,6 +42,24 @@
         "all_rights_reserved": "All Rights Reserved"
     },
     "pages": {
-        "cookies_policy": "cookies-policy"
+        "cookies_policy": "cookies-policy",
+        "about": "about",
+        "company": "company",
+        "services": "services",
+        "products": "products",
+        "promotions": "promotions",
+        "treatments": "treatments",
+        "team": "team",
+        "portfolio": "portfolio",
+        "gallery": "gallery",
+        "contact": "contact",
+        "support": "support",
+        "privacy_policy": "privacy-policy",
+        "terms_of_use": "terms-of-use",
+        "help": "help",
+        "blog": "blog"
+    },
+    "titles": {
+        "location": "Location"
     }
 }

@@ -46,6 +46,20 @@ export default {
       title: 'Logo Website skeleton',
       description: 'Website skeleton to build landing pages, corporative websites, e-commerce, or any platform, etc.'
     },
+    contactInfo: {
+      phone: '912667534',
+      mobile: '616312008',
+      whatsapp: '616312008',
+      emailAddress: 'info@wixys.com',
+      address: 'Calle Martín López Zubero 1, 4C',
+      city: 'Brunete',
+      state: 'Madrid',
+      zipcode: '28690'
+    },
+    marketing: {
+      btnMainCallToAction: true,
+      titleMainCallToAction: 'Cita online'
+    },
     //-- Social Media
     socialMedia: {
       facebookUrl: 'https://www.facebook.com/WixysGlobalSolutions/', 
@@ -60,9 +74,10 @@ export default {
     platform: "atasun",
     gowixApiKey: "b8f43bb54471b5a319bd697d5b457c0836173e8r",
     //-- UI Settings
-    search: false,
-    multilang: false,
-    profile: false
+    search: true,
+    multilang: true,
+    profile: true,
+    topNavBar: true
   },
 
   /*
