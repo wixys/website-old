@@ -1,65 +1,65 @@
 {
-    "links": {
-        "read_more": "Leer más",
-        "see_more": "Ver más",
-        "spanish": "Español",
-        "english": "Inglés",
-        "back_to_home": "Volver a la página de inicio",
-        "accept": "Aceptar"
-    },
-    "menu_items": {
-        "home": "Inicio",
-        "about": "Nosotros",
-        "services": "Servicios",
-        "products": "Productos",
-        "team": "Equipo",
-        "portfolio": "Portafolio",
-        "gallery": "Galería",
-        "contact": "Contactar",
-        "support": "Soporte",
-        "terms_of_use": "Términos de uso",
-        "privacy_policy": "Política de privacidad",
-        "help": "Ayuda",
-        "company": "Empresa",
-        "languages": "Idiomas",
-        "search": "Buscar",
-        "user": "Usuario",
-        "blog": "Blog"
-    },
-    "messages": {
-        "page_not_found": "Página no encontrada",
-        "call_us_right_now": "Llámenos ahora",
-        "call_us_right_now_desc": "Nuestros asesores le atenderán y ofrecerán la solución que usted necesita. Si tiene una idea cuéntenosla y le ayudaremos a desarrollar el proyecto.",
-        "g_suite_subtitle": "Gestione su negocio de una forma productiva y eficiente",
-        "g_suite_desc": "Somos Google Partners en España, ponemos a su disposición toda la información y soporte para el uso de las potentes herramientas de G Suite que le ayudarán a dar el salto a la nube.",
-        "contact": "Contactar",
-        "contact_desc": "Si desea realizar cualquier consulta o necesita de nuestra ayuda, por favor póngase en contacto con nosotros a través de email, usando nuestro Chat, o si lo prefiere puede llamarnos.",
-        "address": "Dirección",
-        "phone": "Teléfono",
-        "email": "Email",
-        "cookies_policy": "Política de cookies",
-        "cookies_policy_message": "Navegando en este sitio web, acepta el uso de cookies que nos permiten ofrecerle una mejor experiencia de usuario.",
-        "all_rights_reserved": "Todos los derechos reservados"
-    },
-    "pages": {
-        "cookies_policy": "politica-de-cookies",
-        "about": "nosotros",
-        "company": "empresa",
-        "services": "servicios",
-        "products": "productos",
-        "promotions": "promociones",
-        "treatments": "tratamientos",
-        "team": "equipo",
-        "portfolio": "portafolio",
-        "gallery": "galeria",
-        "contact": "contactar",
-        "support": "soporte",
-        "privacy_policy": "politica-de-privacidad",
-        "terms_of_use": "terminos-de-uso",
-        "help": "ayuda",
-        "blog": "blog"
-    },
-    "titles": {
-        "location": "Localización"
-    }
+  "buttons": {
+    "read_more": "Leer más",
+    "see_more": "Ver más",
+    "spanish": "Español",
+    "english": "Inglés",
+    "back_to_home": "Volver a la página de inicio",
+    "accept": "Aceptar"
+  },
+  "menu_items": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "products": "Productos",
+    "team": "Equipo",
+    "portfolio": "Portafolio",
+    "gallery": "Galería",
+    "contact": "Contactar",
+    "support": "Soporte",
+    "terms_of_use": "Términos de uso",
+    "privacy_policy": "Política de privacidad",
+    "help": "Ayuda",
+    "company": "Empresa",
+    "languages": "Idiomas",
+    "search": "Buscar",
+    "user": "Usuario",
+    "blog": "Blog"
+  },
+  "messages": {
+    "page_not_found": "Página no encontrada",
+    "call_us_right_now": "Llámenos ahora",
+    "call_us_right_now_desc": "Nuestros asesores le atenderán y ofrecerán la solución que usted necesita. Si tiene una idea cuéntenosla y le ayudaremos a desarrollar el proyecto.",
+    "g_suite_subtitle": "Gestione su negocio de una forma productiva y eficiente",
+    "g_suite_desc": "Somos Google Partners en España, ponemos a su disposición toda la información y soporte para el uso de las potentes herramientas de G Suite que le ayudarán a dar el salto a la nube.",
+    "contact": "Contactar",
+    "contact_desc": "Si desea realizar cualquier consulta o necesita de nuestra ayuda, por favor póngase en contacto con nosotros a través de email, usando nuestro Chat, o si lo prefiere puede llamarnos.",
+    "address": "Dirección",
+    "phone": "Teléfono",
+    "email": "Email",
+    "cookies_policy_message": "Navegando en este sitio web, acepta el uso de cookies que nos permiten ofrecerle una mejor experiencia de usuario.",
+    "all_rights_reserved": "Todos los derechos reservados"
+  },
+  "pages": {
+    "cookies_policy": "politica-de-cookies",
+    "about": "nosotros",
+    "company": "empresa",
+    "services": "servicios",
+    "products": "productos",
+    "promotions": "promociones",
+    "treatments": "tratamientos",
+    "team": "equipo",
+    "portfolio": "portafolio",
+    "gallery": "galeria",
+    "contact": "contactar",
+    "support": "soporte",
+    "privacy_policy": "politica-de-privacidad",
+    "terms_of_use": "terminos-de-uso",
+    "help": "ayuda",
+    "blog": "blog"
+  },
+  "titles": {
+    "location": "Localización",
+    "cookies_policy": "Política de cookies"
+  }
 }
