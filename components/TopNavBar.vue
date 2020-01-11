@@ -57,7 +57,8 @@ export default {
       phoneNumber: "",
       whatsapp: "",
       btnMainCallToAction: false,
-      titleMainCallToAction: ""
+      titleMainCallToAction: "",
+      linkMainCallToAction: ""
     };
   },
   components: {
@@ -79,6 +80,7 @@ export default {
     showBtnMainCallToAction() {
       this.btnMainCallToAction = process.env.marketing.btnMainCallToAction;
       this.titleMainCallToAction = process.env.marketing.titleMainCallToAction;
+      this.linkMainCallToAction = process.env.marketing.linkMainCallToAction;
       return this.btnMainCallToAction;
     }
   }
