@@ -44,7 +44,7 @@ export default {
         "Website skeleton to build landing pages, corporative websites, e-commerce, or any platform, etc."
     },
     contactInfo: {
-      phone: "912667534",
+      phone: "",
       mobile: "616312008",
       whatsapp: "616312008",
       emailAddress: "info@wixys.com",
@@ -55,8 +55,8 @@ export default {
     },
     marketing: {
       btnMainCallToAction: true,
-      titleMainCallToAction: "Cita online",
-      linkMainCallToAction: "cita-online"
+      titleMainCallToAction: "",
+      linkMainCallToAction: ""
     },
     //-- Social Media
     socialMedia: {
@@ -67,10 +67,10 @@ export default {
       youtubeUrl: ""
     },
     //-- API
-    apiUrl: "https://backend.gowix.net/api/",
-    apiVersion: "v1",
-    platform: "atasun",
-    gowixApiKey: "b8f43bb54471b5a319bd697d5b457c0836173e8r",
+    apiUrl: "",
+    apiVersion: "",
+    platform: "",
+    ApiKey: "",
     //-- UI Settings
     search: true,
     multilang: true,
